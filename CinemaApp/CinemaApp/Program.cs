@@ -41,8 +41,7 @@ namespace CinemaApp
                 printMenu();
                 while (!int.TryParse(Console.ReadLine(), out menuOption))
                 {
-                    Console.WriteLine("Wrong input!");
-                    return;
+                    Console.WriteLine("Wrong input. Please choose valid options.");
                 }
 
                 switch (menuOption)
